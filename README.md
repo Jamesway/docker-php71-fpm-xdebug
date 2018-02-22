@@ -1,5 +1,5 @@
 # Dockerfile - php71-fpm with XDebug for Development
-This image is for composing with php-fpm with nginx: link
+This image is for composing with php-fpm with nginx: https://github.com/Jamesway/docker-compose-php71-lamp-stack
 
 ## Installation
 ```
@@ -55,7 +55,7 @@ Under "Ide key" select "PhpStorm" and enter the same key as "xdebug.idekey" in t
 
 ### Using Xdebug with PhpStorm
 
-Sample docker-compose: link
+Sample docker-compose: https://github.com/Jamesway/docker-compose-php71-lamp-stack
 ```
 docker-composer up -d
 ```
