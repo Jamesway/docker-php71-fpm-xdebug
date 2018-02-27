@@ -41,7 +41,7 @@ Open Preferences -> Languages & Frameworks -> Servers
 - Add a new server for this project (+), the name can be anything
 - Host must match the nginx server_name directive in vhost.conf (locahost)
 - Set port to 80
-- Check "use path mappings" and set the local public directory to the servers public directory (for nginx /var/www/public)
+- Check "use path mappings" and set the local source path as /var/www in the remote server (nginx). This way xdebug can see the code in the source root /var/www and /var/www/public. *Note the image shows mapping src/public -> /var/www/public. This is ok, but another more important map should be added for src -> /var/www* 
 
 ### Chrome Plugin Xdebug helper
 
